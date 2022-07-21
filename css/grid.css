@@ -1,0 +1,67 @@
+.row {
+    display: flex;
+    flex-wrap: no-wrap;
+}
+
+
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+    width: 50%;
+    margin-right: 40px;
+
+}
+
+.col-4 {
+    flex-basis: 33.3%;
+    max-width: 33.3%;
+    width: 33.3%;
+}
+
+.col-8 {
+    flex-basis: 67.7%;
+    max-width: 67.7%;
+    width: 67.7%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+    width: 25%;
+
+}
+
+.col-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+    width: 75%;
+}
+@media (max-width:600px) {
+    .col-sm-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+        width: 25%;
+    }
+    .col-sm-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+        width: 50%;
+    }
+    .col-sm-4 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+        width: 33.33%;
+    } 
+    .col-sm-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
